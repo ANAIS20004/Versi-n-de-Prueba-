@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web Personal</title>
+</head>
+
+<body>
+  <header id="inicio">
+    <img src="PORTADA.jpg" alt="Descripción de la imagen"> <!-- Cambia 'tu-imagen.jpg' por el nombre de tu imagen -->
+      <ul>
+
+  <style>
+    /* Reset de estilos */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilos globales */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Estilos del encabezado */
+    header {
+      background-color: #7509bd; /* Color de fondo verde */
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #d4d4d4;
+    }
+
+    /* Estilos de las secciones */
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 8px; /* Bordes redondeados */
+    }
+
+    #bibliografia {
+      background-color: #f3e7d1; /* Azul claro */
+      color: #333;
+    }
+
+    #habilidades {
+      background-color: #e4c4b7; /* Naranja claro */
+      color: #333;
+    }
+
+    #proyectos {
+      background-color: #f59faa; /* Morado claro */
+      color: #333;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2em;
+      color: #3528e6;
+    }
+
+    section p {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    #habilidades ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+    }
+
+    #habilidades ul li {
+      background-color: #1fa9cc;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 25px;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+
+    #habilidades ul li:hover {
+      background-color: #ebe727;
+    }
+
+    /* Estilos de la sección Proyectos */
+    #proyectos .proyecto {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    #proyectos .proyecto:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    #proyectos .proyecto h3 {
+      margin-bottom: 10px;
+      color: #b3215e;
+    }
+
+    #proyectos .proyecto p {
+      font-size: 1em;
+      color: #555;
+    }
+
+    /* Estilos del pie de página */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+      position: relative;
+    }
+
+    /* Responsividad */
+    @media (max-width: 768px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      #habilidades ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #habilidades ul li {
+        width: 80%;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      nav ul li a {
+        font-size: 1em;
+      }
+
+      section h2 {
+        font-size: 1.5em;
+      }
+
+      #habilidades ul li {
+        font-size: 0.9em;
+        padding: 8px 16px;
+      }
+
+      #proyectos .proyecto {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Sección de Inicio -->
+  <header id="inicio">
+    <h1>Bienvenido a Mi Página Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#bibliografia">Bibliografía</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de Bibliografía -->
+  <section id="bibliografia">
+    <h2>Mi Bibliografía</h2>
+    <p>Hola, soy NINFA ANAIS, Soy administradora con más de 5 años de experiencia en la gestión de proyectos y recursos dentro de organizaciones tanto del sector privado como público. Especializada en optimización de procesos operativos, manejo de equipos multidisciplinarios y coordinación de presupuestos. Mi enfoque está orientado a mejorar la eficiencia y fomentar el crecimiento organizacional a través de estrategias innovadoras y una gestión efectiva de los recursos humanos y financieros.
+
+      A lo largo de mi carrera, he liderado con éxito proyectos clave que han resultado en la reducción de costos, mejora de la productividad y satisfacción del cliente. Mi formación académica incluye una Licenciatura en Administración de Empresas] y múltiples cursos de actualización en liderazgo, finanzas y gestión de riesgos.
+      
+      Mi objetivo es seguir creciendo como líder en administración, contribuyendo al éxito de empresas mediante el uso de mis habilidades en planificación estratégica, resolución de problemas y toma de decisiones basadas en datos..</p>
+  </section>
+
+  <!-- Sección de Habilidades -->
+  <section id="habilidades">
+    <h2>Mis Habilidades</h2>
+    <ul>
+      <li>PLANIFICACIÓN</li>
+      <li>RESOLUCIÓN DE PROBLEMAS</li>
+      <li>GESTIÓN DEL TIEMPO</li>
+      <li>NEGOCIACIÓN</li>
+      <li>Optimización SEO</li>
+      <li>Integración de APIs</li>
+    </ul>
+  </section>
+
+  <!-- Sección de Proyectos -->
+  <section id="proyectos">
+    <h2>Mis Proyectos</h2>
+    <div class="proyecto">
+      <h3>Proyecto 1: GESTIÓN EFICIENTE 360°</h3>
+      <p>Descripción: Proyecto para mejorar la eficiencia general de los procesos administrativos mediante la integración de herramientas digitales y automatización..</p>
+    </div>
+    <div class="proyecto">
+      <h3>Proyecto 2: PROADMIN</h3>
+      <p>Descripción: Proyecto para la digitalización y automatización de procesos administrativos rutinarios, reduciendo tiempos y errores manuales..</p>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2024 [NINFA ANAIS]. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
